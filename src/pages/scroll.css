@@ -1,0 +1,43 @@
+.scroll-button{
+    position: fixed;
+    right: 20px;
+    bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 9999;
+}
+.scroll-button button{
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background:rgba(255,75,92,0.25);
+    border: 1px solid rgba(255,255,255,0.18);
+    color: white;
+    font-size: 30px;
+    --backdrop-filter: blur(8px);
+    box-shadow: 0 5px 20px rgba(255,75,92,0.18);
+    --webkit-backdrop-filter: blur(8px);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.scroll-button button:hover{
+    transform: translateY(-4px);
+    background: rgba(255,75,92,0.45);
+    box-shadow: 0 8px 25px rgba(255,75,92,0.3);
+}
+@media(max-width:600px){
+    .scroll-button{
+        right: 12px;
+        bottom: 20px;
+    }
+    .scroll-button button{
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+    }
+}
