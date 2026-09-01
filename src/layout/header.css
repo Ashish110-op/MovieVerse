@@ -79,68 +79,6 @@
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(196, 22, 16, 0.937);
 }
-@media (max-width: 600px) {
-  .main-header {
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-    padding: 12px 15px;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 12px;
-  }
-
-  .logo {
-    flex-shrink: 0;
-  }
-
-  .logo h2 {
-    font-size: 20px;
-    white-space: nowrap;
-  }
-
-  .navbar {
-    width: 100%;
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-  }
-
-  .nav-link {
-    font-size: 13px;
-    white-space: nowrap;
-  }
-
-  .h-btn {
-    display: none;
-  }
-}
-
-@media (max-width: 400px) {
-  .main-header {
-    padding: 10px 12px;
-  }
-
-  .logo h2 {
-    font-size: 18px;
-  }
-
-  .navbar {
-    gap: 7px;
-  }
-
-  .nav-link {
-    font-size: 12px;
-  }
-}
-
 html,
 body {
   width: 100%;
