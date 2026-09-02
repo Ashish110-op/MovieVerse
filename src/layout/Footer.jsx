@@ -12,7 +12,7 @@ export const Footer = () =>{
             <div className="footer-container">
                 <div className="footer-brand">
                     <div className="footer-logo">
-                        🎬 Movie <span>Verse</span>
+                        🎬 Movie<span>Verse</span>
                     </div>
                     <p>Discover anmazing movies and TV shows.
                         Search, explore and find your next favorurite story with MovieVerse.
