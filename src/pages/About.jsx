@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import"./about.css"
 
 export const About = () =>{
@@ -11,7 +12,7 @@ export const About = () =>{
             <h1>Where Every Story <span> Comes Alive.</span></h1>
             <p>Discover movies, explore new Shows and find your next favourite story - all in one beautyful place</p>
             <div  className="hero-button">
-                <a href="/movie"   className="primary-btn">Explore Movies →</a>
+                <Link to="/movie"   className="primary-btn">Explore Movies →</Link>
                 <a href="#story"   className="secondary-btn">Our Story</a>
             </div>
         </div>
@@ -25,7 +26,7 @@ export const About = () =>{
                 everything is designed to make your experience simple and enjoyable.
             </p>
             <p className="text">Our goal is simple - make discovering entertainment exciting, fast and beautiful.</p>
-            <a href="/movie" className="text-btn">Start Exploring →</a>
+            <Link to="/movie" className="text-btn">Start Exploring →</Link>
         </div>
         <div className="intro-visual">
 
@@ -136,7 +137,7 @@ export const About = () =>{
             <span>🍿YOUR NEXT FAVOURITE STORY IS WAITING</span>
             <h2>Ready to find your <strong>next obsession</strong></h2>
             <p>Explore our collection and discover something worth watching tonight.</p>
-            <a href="/movie" className="cta-btn">Explore Movies🎬</a>
+            <Link to="/movie" className="cta-btn">Explore Movies🎬</Link>
         </div>
     </section>
    </main>

@@ -6,7 +6,7 @@ export const Header = () =>{
         <header className="main-header">
             <div className="logo">
                 <span className="logo-icon">🎬</span>
-                <h2>Movie <span>Verse</span></h2>
+                <h2>Movie<span>Verse</span></h2>
             </div>
             <nav className="navbar">
                 <NavLink to="/"
